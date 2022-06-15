@@ -1,0 +1,133 @@
+h1{
+	font-family: palatino;
+	font-size: 60px;
+	font-style: normal;
+	font-weight: 800;
+	text-align: center;
+	color: pink;
+}
+
+h2{
+	font-family: palatino;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 600;
+	text-align: left;
+	color: black;
+}
+
+h3{
+	font-family: palatino;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	text-align: left;
+	color: black;
+}
+
+p{
+	font-family: palatino;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	color: #C0FFFF;
+}
+
+a{
+	font-family: palatino;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	text-align: left;
+	color: #FA8072;
+}
+
+ul{
+	font-family: palatino;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	text-align: left;
+	color: #808080;
+}
+
+input{
+	font-family: palatino;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	text-decoration-color:yellow;
+  	border: 2px solid #4CAF50; /* Green */
+
+}
+
+table, th, td{
+	border: 1px solid black;
+}
+
+body{
+	background-image: linear-gradient(grey,white);
+}
+
+
+#info{
+	font-family: palatino;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	text-align: left;
+	color: black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* unvisited link */
+a:link {
+  color: brown;
+}
+
+/* visited link */
+a:visited {
+  color: blue;
+}
+
+/* mouse over link */
+a:hover {
+  color: purple;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
+
+.alert {
+  font-family: palatino;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: black;
+  background-color: #FFDAB9;
+  margin-bottom: 15px;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 30px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
